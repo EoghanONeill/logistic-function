@@ -1,6 +1,6 @@
-A simple shiny app for R illustrating the form of the simple logistic regression function. Can be run using
+A simple shiny app for R illustrating the multinomial logistic regression choice probabilities
 
+```
 library("shiny")  
-runGitHub("schoonees/logistic-function")
-
-from R.
+runGitHub("EoghanONeill/MNL_app")
+```
