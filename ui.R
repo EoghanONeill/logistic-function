@@ -7,6 +7,7 @@ shinyUI(pageWithSidebar(
     sliderInput('b1_j2', 'Select slope parameter for j=2', value = 0.5, min = -10, max = 10, step = 0.25)  
   ),
   mainPanel(
-    plotOutput('plot1', width = "600px", height = "600px")
+    plotOutput('plot1', width = "600px", height = "600px"),
+    plotOutput('plot2', width = "600px", height = "600px")
   )
 ))
